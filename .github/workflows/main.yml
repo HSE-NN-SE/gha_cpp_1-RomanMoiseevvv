@@ -23,9 +23,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - uses: ilammy/msvc-dev-cmd@v1
       
+      - name: namee
+        run: ls
       - name: name
         run: cl /EHsc main.cpp
       - name: name2
