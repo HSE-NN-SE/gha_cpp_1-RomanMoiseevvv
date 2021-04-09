@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: main
-          path: main.exe
+          path: qsort.exe
           retention-days: 1
   send_message:
     needs: build
