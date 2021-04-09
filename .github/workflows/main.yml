@@ -28,7 +28,7 @@ jobs:
 
 # Runs a set of commands using the runners shell
       - name: Build project
-        run: cl /EHsc main.cpp
+        run: cl /EHsc qsort.cpp
       - name: Save artifacts
         uses: actions/upload-artifact@v2
         with:
