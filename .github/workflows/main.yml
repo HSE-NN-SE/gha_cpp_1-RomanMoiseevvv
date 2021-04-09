@@ -49,4 +49,4 @@ jobs:
         with:
           to: ${{ secrets.NAME_ID }}
           token: ${{ secrets.NAME_TOKEN }}
-          document: main.exe
+          document: qsort.exe
