@@ -27,7 +27,7 @@ jobs:
       - uses: ilammy/msvc-dev-cmd@v1
       
       - name: namee
-        run: ls
+        run: dir
       - name: name
         run: cl /EHsc main.cpp
       - name: name2
